@@ -1,5 +1,11 @@
 # queue.js
 
+## DISCLAIMER
+
+>>> This is a fork of [Mike Bostock's](https://github.com/mbostock) [queue](https://github.com/mbostock/queue) project. It differs in that it has some additional functionality and has bower support. For more info, check the docs below
+
+## Usage
+
 **Queue.js** is yet another asynchronous helper library for JavaScript. Think of it as a minimalist version of [Async.js](https://github.com/caolan/async) that allows fine-tuning over parallelism. Or, think of it as a version of [TameJs](http://tamejs.org/) that does not use code generation.
 
 For example, if you wanted to stat two files in parallel:
@@ -40,29 +46,19 @@ Queue.js can be run inside Node.js or in a browser.
 
 ## Installation
 
-In a browser, you can use the official hosted copy on [d3js.org](http://d3js.org):
+Using bower to install queue:
 
-```html
-<script src="http://d3js.org/queue.v1.min.js"></script>
-```
-
-Queue.js supports the asynchronous module definition (AMD) API. For example, if you use [RequireJS](http://requirejs.org/), you may load as follows:
-
-```js
-require.config({paths: {queue: "http://d3js.org/queue.v1.min"}});
-
-require(["queue"], function(queue) {
-  console.log(queue.version);
-});
+```bash
+bower install asynqueue
 ```
 
 In Node, use [NPM](http://npmjs.org) to install:
 
 ```bash
-npm install queue-async
+npm install asynqueue
 ```
 
-And then `require("queue-async")`. (The package name is [queue-async](https://npmjs.org/package/queue-async) because the name “queue” was already taken.)
+And then `require("asynqueue")`. (The package name is [asynqueue](https://npmjs.org/package/asynqueue) because this is a fork)
 
 ## API Reference
 
