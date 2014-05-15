@@ -2,7 +2,7 @@
   "name": "asynqueue",
   "description": "A little helper for asynchronous JavaScript.",
   "main": "queue.js",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "dependencies": {}
 }
 
