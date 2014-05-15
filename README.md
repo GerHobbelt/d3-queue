@@ -2,7 +2,7 @@
 
 ## DISCLAIMER
 
->>> This is a fork of [Mike Bostock's](https://github.com/mbostock) [queue](https://github.com/mbostock/queue) project. It differs in that it has some additional functionality and has bower support. For more info, check the docs below
+> This is a fork of [Mike Bostock's](https://github.com/mbostock) [queue](https://github.com/mbostock/queue) project. It differs in that it has some additional functionality and has bower support. For more info, check the docs below
 
 ## Usage
 
