@@ -2,7 +2,7 @@
   "name": "queue-async",
   "repository": "mbostock/queue",
   "description": "Yet another asynchronous helper library for JavaScript.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "async"
   ],

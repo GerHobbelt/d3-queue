@@ -73,8 +73,8 @@
 
   function noop() {}
 
-  queue.version = "1.0.7";
-  if (typeof define === "function" && define.amd) define(function() { return queue; });
-  else if (typeof module === "object" && module.exports) module.exports = queue;
+  queue.version = "1.0.8";
+  if (typeof module === "object" && module.exports) module.exports = queue;
+  else if (typeof define === "function" && define.amd) define(function() { return queue; });
   else this.queue = queue;
 })();
